@@ -123,7 +123,6 @@ if __name__ == '__main__':
 	
 	letters = DetectLetters('letters_svm2.dat')
 	
-	#video = cv2.VideoCapture(1)
 	# initialise webcam
 	video = Webcam(1)
 	if (video.cameraIsOpened() is False):
